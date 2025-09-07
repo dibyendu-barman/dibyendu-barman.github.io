@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Safar India — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="Happy Safar India" class="brand-logo" /> <!-- MODIFY HERE -->
+      <!-- <span class="brand-name">WebCrafters</span> -->
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
+    <nav id="nav" class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="blog.html">Blog</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" style="--hero:url('assets/banner.png')"> <!-- MODIFY HERE -->
+  <div class="container">
+    <h1>We Build Websites That Grow Your Business</h1>
+    <p><!-- MODIFY HERE --> Professional Website Development, SEO Optimization, and Digital Solutions for Startups & Businesses.</p>
+    <div class="hero-actions">
+      <a class="btn" href="services.html">Our Services</a>
+      <a class="btn" href="contact.html">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<main class="container page">
+  <section class="grid-3">
+    <article class="card">
+      <img src="assets/sample.jpg" alt="Web Development" /> <!-- MODIFY HERE -->
+      <h3>Website Development</h3>
+      <p>Custom websites built with modern technologies, fast, secure, and scalable.</p>
+      <a class="btn small" href="services.html">Learn More</a>
+    </article>
+    <article class="card">
+      <img src="assets/sample.jpg" alt="Portfolio" /> <!-- MODIFY HERE -->
+      <h3>Our Portfolio</h3>
+      <p>Check out our previous projects — from business sites to e-commerce solutions.</p>
+      <a class="btn small" href="portfolio.html">View Work</a>
+    </article>
+    <article class="card">
+      <img src="assets/sample.jpg" alt="SEO & Marketing" /> <!-- MODIFY HERE -->
+      <h3>SEO & Marketing</h3>
+      <p>Boost your online visibility with SEO, content marketing, and digital ads.</p>
+      <a class="btn small" href="services.html">Start Now</a>
+    </article>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Happy Safar India</p> <!-- MODIFY HERE -->
+  </div>
+</footer>
+</body>
+</html>
