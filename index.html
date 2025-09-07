@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header Start -->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Happy Safar India — Home</title>
+  <title>Dibyendu Barman — Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
   <script defer src="scripts.js"></script>
 </head>
@@ -11,63 +12,132 @@
 <header class="site-header">
   <div class="container">
     <a class="brand" href="index.html">
-      <img src="assets/logo.png" alt="Happy Safar India" class="brand-logo" /> <!-- MODIFY HERE -->
-      <!-- <span class="brand-name">WebCrafters</span> -->
+      <img src="assets/logo.png" alt="Happy Safar India" class="brand-logo" />
     </a>
     <button class="menu-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
     <nav id="nav" class="nav">
         <a class="active" href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="blog.html">Blog</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
+<!-- Header End -->
 
-<!-- Hero Section -->
-<section class="hero" style="--hero:url('assets/banner.png')"> <!-- MODIFY HERE -->
-  <div class="container">
-    <h1>We Build Websites That Grow Your Business</h1>
-    <p><!-- MODIFY HERE --> Professional Website Development, SEO Optimization, and Digital Solutions for Startups & Businesses.</p>
-    <div class="hero-actions">
-      <a class="btn" href="services.html">Our Services</a>
-      <a class="btn" href="contact.html">Get a Free Quote</a>
-    </div>
-  </div>
-</section>
+<main class="container">
 
-<!-- Features Section -->
-<main class="container page">
-  <section class="grid-3">
-    <article class="card">
-      <img src="assets/sample.jpg" alt="Web Development" /> <!-- MODIFY HERE -->
-      <h3>Website Development</h3>
-      <p>Custom websites built with modern technologies, fast, secure, and scalable.</p>
-      <a class="btn small" href="services.html">Learn More</a>
-    </article>
-    <article class="card">
-      <img src="assets/sample.jpg" alt="Portfolio" /> <!-- MODIFY HERE -->
-      <h3>Our Portfolio</h3>
-      <p>Check out our previous projects — from business sites to e-commerce solutions.</p>
-      <a class="btn small" href="portfolio.html">View Work</a>
-    </article>
-    <article class="card">
-      <img src="assets/sample.jpg" alt="SEO & Marketing" /> <!-- MODIFY HERE -->
-      <h3>SEO & Marketing</h3>
-      <p>Boost your online visibility with SEO, content marketing, and digital ads.</p>
-      <a class="btn small" href="services.html">Start Now</a>
-    </article>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, I'm <span class="highlight">Dibyendu Barman</span></h1>
+    <p>Embedded Systems & Electronics Hardware Engineer | 5+ Years Experience</p>
+    <a href="#contact" class="btn">Hire Me</a>
+    <a href="Resume_Dibyendu_Barman.pdf" class="btn" download>Download Resume</a>
   </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Passionate and results-driven Embedded Systems & Electronics Hardware Engineer with 
+      expertise in hardware testing, validation, and embedded development. Skilled in Embedded C, 
+      Python, Shell scripting, and hardware validation with proven experience in aerospace, IoT, 
+      and consumer electronics.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul class="skills-grid">
+      <li>Embedded Systems</li>
+      <li>Python, Shell Scripting</li>
+      <li>Embedded C, C/C++</li>
+      <li>Linux System</li>
+      <li>Arduino, STM32, ESP32</li>
+      <li>Automation Testing</li>
+      <li>UART, SPI, I2C</li>
+      <li>Debugging & Failure Analysis</li>
+      <li>Manual Soldering & PCB Debugging</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="job">
+      <h3>Assistant Engineer — Foxconn Technology, Bangalore</h3>
+      <p><em>Jan 2024 – Present</em></p>
+      <ul>
+        <li>Coexistence (Coex) testing on iPhone hardware.</li>
+        <li>Python & Shell script-based testing automation.</li>
+        <li>Failure analysis and debugging hardware/firmware issues.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Electronics Technician — Intugine Technologies, Bangalore</h3>
+      <p><em>Jan 2021 – Aug 2022</em></p>
+      <ul>
+        <li>Validation & manufacturing of IoT tracking devices (GPS, GSM, SIM).</li>
+        <li>Developed Embedded C firmware and programmed MCUs.</li>
+        <li>Hands-on soldering, debugging with oscilloscopes.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Technician — Centum Electronics, Bangalore</h3>
+      <p><em>Jun 2017 – Nov 2019</em></p>
+      <ul>
+        <li>Worked on ISRO-standard wiring harness, PCB assembly & testing.</li>
+        <li>Performed micro-level rework and quality inspections.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in Electronics & Communication Engineering</strong> — Mallabhum Institute of Technology (2021, 8.0 GPA)</li>
+      <li><strong>Diploma in Electronics & Telecommunication Engineering</strong> — K. G. Engineering Institute (2017, 80.5%)</li>
+    </ul>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Awarded for Consistent Contributor</li>
+      <li>Awarded for Technical Creativity</li>
+      <li>Awarded for Kaizen Improvement</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:dibyendubarman96@gmail.com">dibyendubarman96@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918116293100">+91 81162 93100</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/dibyendu-barman" target="_blank">linkedin.com/in/dibyendu-barman</a></p>
+  </section>
+
 </main>
 
-<!-- Footer -->
+<!-- Footer Start -->
 <footer class="site-footer">
   <div class="container">
-    <p>© <span id="year"></span> Happy Safar India</p> <!-- MODIFY HERE -->
+    <p>© <span id="year"></span> Dibyendu Barman</p>
   </div>
 </footer>
+<!-- Footer End -->
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
